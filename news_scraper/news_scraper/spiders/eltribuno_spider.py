@@ -3,17 +3,14 @@ from scrapy.selector import Selector
 from datetime import datetime
 import re
 
-class NoticiasMercedinasSpider(BaseNewsSpider):
+class ElTribunoSpider(BaseNewsSpider):
     name = "eltribuno"
     allowed_domains = ["eltribuno.com"]
     start_urls = ["https://eltribuno.com/"]
 
     def get_article_links(self, response):
-        import re
         all_links = response.css('a::attr(href)').getall()
-        article_pattern = re.compile(
-            r"^https?://noticiasmercedinas\.com/site/\d{4}/\d{2}/\d{2}/[^/]+/?$"
-        )
+        article_pattern = re.compile(r'^https://www\.eltribuno\.com/[^/]+/\d{4}-\d{1,2}-\d{1,2}-.*')
         article_links = []
         for link in all_links:
             abs_url = response.urljoin(link)
@@ -26,13 +23,15 @@ class NoticiasMercedinasSpider(BaseNewsSpider):
         title = response.css("h1::text").get()
         date_str = response.css("input::attr(data-fecha_c)").get()
         date = None
+        subtitle = response.css('div.articulo__intro::text').get()
         if date_str:
             try:
                 date = datetime.fromisoformat(date_str)
             except Exception:
                 date = date_str
         # Extract all text inside <p> tags, including hyperlinks and inline tags
-        full_text = ' '.join([p.xpath('string(.)').get().strip() for p in response.css('p') if p.xpath('string(.)').get()]).strip()
+        full_text = ' '.join([t.strip() for t in response.css('div[amp-access="mostrarNota"] p::text').getall()
+]).strip()
         url = response.url
         source = self.allowed_domains[0]
-        yield self.make_item(title, date, full_text, url, source)
+        yield self.make_item(title, subtitle, date, full_text, url, source)

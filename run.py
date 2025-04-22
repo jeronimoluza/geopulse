@@ -15,13 +15,20 @@ def process_file(input_path, output_path):
     results = []
 
     from random import sample
-    articles = sample(articles, 10)
+    articles = sample(articles, 30)
 
     for article in articles:
-        text = article.get("full_text", "")
-        event = EXTRACTOR.extract_event(text)
+        title = article.get("title", "")
+        subtitle = article.get("subtitle")
+        body = article.get("full_text", "")
+        if subtitle:
+            llm_input = f"# {title}\n\n## {subtitle}\n\n{body}"
+        else:
+            llm_input = f"# {title}\n\n{body}"
+        event = EXTRACTOR.extract_event(llm_input)
         event["source_url"] = article.get("url")
-        event["source_title"] = article.get("title")
+        event["source_title"] = title
+        event["source_subtitle"] = subtitle
         results.append(event)
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(results, f, ensure_ascii=False, indent=2)

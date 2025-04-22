@@ -24,6 +24,7 @@ class NoticiasMercedinasSpider(BaseNewsSpider):
     def parse_article(self, response):
         # Example selectorss, adjust to real site structure
         title = response.css("h1::text").get()
+        subtitle = None
         date_str = response.css("time::attr(datetime)").get()
         date = None
         if date_str:
@@ -35,4 +36,4 @@ class NoticiasMercedinasSpider(BaseNewsSpider):
         full_text = ' '.join([p.xpath('string(.)').get().strip() for p in response.css('p') if p.xpath('string(.)').get()]).strip()
         url = response.url
         source = self.allowed_domains[0]
-        yield self.make_item(title, date, full_text, url, source)
+        yield self.make_item(title, subtitle, date, full_text, url, source)

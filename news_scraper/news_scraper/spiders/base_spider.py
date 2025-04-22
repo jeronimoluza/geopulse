@@ -1,6 +1,8 @@
 import scrapy
 from news_scraper.items import NewsScraperItem
 from datetime import datetime
+import unicodedata
+import re
 
 class BaseNewsSpider(scrapy.Spider):
     """
@@ -30,11 +32,20 @@ class BaseNewsSpider(scrapy.Spider):
         """Override this: Parse and yield a NewsScraperItem for a single article."""
         raise NotImplementedError
 
-    def make_item(self, title, date, full_text, url, source=None):
+    def clean_text(self, text):
+        """Remove unicode/control characters from a string."""
+        if text is None:
+            return None
+        text = unicodedata.normalize('NFKD', text).encode('ascii', 'ignore').decode('utf-8')
+        text = re.sub(r'[\x00-\x08\x0B\x0C\x0E-\x1F\x7F-\x9F]', '', text)
+        return text.strip()
+
+    def make_item(self, title, subtitle, date, full_text, url, source=None):
         return NewsScraperItem(
-            title=title,
+            title=self.clean_text(title),
+            subtitle=self.clean_text(subtitle),
             date=date,
-            full_text=full_text,
-            url=url,
-            source=source or self.name
+            full_text=self.clean_text(full_text),
+            url=self.clean_text(url),
+            source=self.clean_text(source or self.name)
         )

@@ -1,23 +1,13 @@
 [
   {
-    "event_type": "Cultural or tourist events",
+    "event_type": "No event",
     "city": null,
-    "location": "Bustro Mercedes, calles 26 esquina 41",
-    "date": "2025-04-25",
+    "location": null,
+    "date": null,
     "time": null,
-    "summary": "En el próximo jueves 25 de abril, en Bistro Mercedes ubicado en calles 26 esquina 41, se realizará una cctype de vinos exclusiva con live music.",
-    "source_url": "https://noticiasmercedinas.com/site/2025/04/20/anuncian-una-cata-de-vinos-y-tapeo-con-show-musical-en-bistro/",
-    "source_title": "Anuncian una cata de vinos y tapeo con show musical en Bistro"
-  },
-  {
-    "event_type": "Infrastructure disruptions that can affect pedestrians or vehicles",
-    "city": "Trenque Lauquen",
-    "location": "Luzano - kilómetro 138,300 en jurisdicción del partido de Suipacha, baixo arroyo \"Las Saladas\"",
-    "date": "2025-04-20",
-    "time": "11:40",
-    "summary": "Una familia viajera sufrió un accidente gravado al attemptedur en la zona de préstamo con agua cerca do bridge de «Las Saladas» no longe do Suipacha.",
-    "source_url": "https://noticiasmercedinas.com/site/2025/04/20/despiste-en-ruta-5-una-familia-cayo-con-su-auto-a-la-banquina-pero-resulto-ilesa/",
-    "source_title": "Despiste en ruta 5: una familia cayó con su auto a la banquina pero resultó ilesa"
+    "summary": "No real-world event found.",
+    "source_url": "https://noticiasmercedinas.com/site/2025/04/21/haydee-carmen-bianco-vda-de-moraglio-qepd/",
+    "source_title": "HAYDEE CARMEN BIANCO VDA de MORAGLIO. (QEPD)"
   },
   {
     "event_type": "No event",
@@ -25,19 +15,9 @@
     "location": null,
     "date": null,
     "time": null,
-    "summary": "No real-world event found.",
-    "source_url": "https://noticiasmercedinas.com/site/2025/04/08/la-provincia-presento-el-programa-medicamentos-bonaerenses/",
-    "source_title": "La Provincia presentó el programa Medicamentos Bonaerenses"
-  },
-  {
-    "event_type": "Conflict and protests",
-    "city": null,
-    "location": null,
-    "date": "2025-03-24",
-    "time": null,
-    "summary": "The text describes historical violent actions that occurred on March 24th, which are significant in the country's political context. It does not mention an ongoing or upcoming event.",
-    "source_url": "https://noticiasmercedinas.com/site/2025/03/24/24-de-marzo-memoria-y-reflexion/",
-    "source_title": "24 de marzo: Memoria y Reflexión"
+    "summary": "No real-world event found. Discussion about online casino promotions.",
+    "source_url": "https://noticiasmercedinas.com/site/2025/04/20/como-sacar-el-maximo-partido-a-las-promociones-de-los-casinos-en-linea/",
+    "source_title": "Cómo sacar el máximo partido a las promociones de los casinos en línea"
   },
   {
     "event_type": "No event",
@@ -45,11 +25,42 @@
     "date": null,
     "time": null,
     "summary": "No real-world event found.",
-    "source_url": "https://noticiasmercedinas.com/site/2025/04/22/el-ciclo-la-casa-suena-vuelve-con-un-nuevo-encuentro-musical/",
-    "source_title": "El ciclo “La Casa Suena” vuelve con un nuevo encuentro musical"
+    "source_url": "https://noticiasmercedinas.com/site/2025/04/17/analisis-del-partido-que-influye-en-la-victoria-y-que-errores-pueden-costarte-el-titulo/",
+    "source_title": "Análisis del partido: ¿Qué influye en la victoria y qué errores pueden costarte el título?"
+  },
+  {
+    "event_type": "Cultural or tourist event",
+    "city": "Chivilcoy",
+    "location": "Carlos Aiello, Chivilcoy",
+    "date": null,
+    "time": null,
+    "summary": "U15 Pre-Federal soccer match between Argentino and Quilmes in Chivilcoy",
+    "source_url": "https://noticiasmercedinas.com/site/2025/04/21/pre-federal-quilmes-ante-argentino/",
+    "source_title": "Pre Federal, Quilmes ante Argentino"
+  },
+  {
+    "event_type": "Cultural or tourist event",
+    "city": "Mercedes",
+    "location": "La Peña Los Cuervos",
+    "date": null,
+    "time": null,
+    "summary": "Campaign for Autism Awareness at La Peña Los Cuervos: 'Construct a World Without Barriers'",
+    "source_url": "https://noticiasmercedinas.com/site/2025/04/16/la-pena-los-cuervos-de-mercedes-impulsa-campana-de-concientizacion-sobre-el-autismo/",
+    "source_title": "La Peña Los Cuervos de Mercedes impulsa campaña de concientización sobre el autismo"
+  },
+  {
+    "event_type": "Cultural or tourist event",
+    "city": "Florencio Varela",
+    "location": null,
+    "date": null,
+    "time": null,
+    "summary": "Gustavo Ginoi, guitarist and founder of La Mississippi, conducted a two-hour interview on 'Llegaron los Blues' radio show.",
+    "source_url": "https://noticiasmercedinas.com/site/2025/04/06/gustavo-ginoi-visito-el-programa-llegaron-los-blues-y-compartio-su-historia-musical/",
+    "source_title": "Gustavo Ginoi visitó el programa “Llegaron los Blues” y compartió su historia musical"
   },
   {
     "event_type": "No event",
+    "city": null,
     "location": null,
     "date": null,
     "time": null,
@@ -59,30 +70,13 @@
   },
   {
     "event_type": "No event",
+    "city": null,
     "location": null,
     "date": null,
     "time": null,
     "summary": "No real-world event found.",
-    "source_url": "https://noticiasmercedinas.com/site/2025/04/20/carlos-mosso-se-suma-al-espacio-de-maria-eugenia-talerico-y-anticipa-presentacion-local/",
-    "source_title": "Carlos Mosso se suma al espacio de María Eugenia Talerico y anticipa presentación local"
-  },
-  {
-    "event_type": "No event",
-    "location": null,
-    "date": null,
-    "time": null,
-    "summary": "No real-world event found.",
-    "source_url": "https://noticiasmercedinas.com/site/2025/04/20/jose-eloy-bertana-qepd/",
-    "source_title": "JOSÉ ELOY BERTANA (QEPD)"
-  },
-  {
-    "event_type": "No event",
-    "location": null,
-    "date": null,
-    "time": null,
-    "summary": "No real-world event found.",
-    "source_url": "https://noticiasmercedinas.com/site/2025/04/18/integrantes-de-cuna-reclaman-al-legislativo-y-ejecutivo-el-cumplimiento-de-la-ordenanza-de-creacion/",
-    "source_title": "Integrantes de CUNA reclaman al Legislativo y Ejecutivo el cumplimiento de la ordenanza de creación"
+    "source_url": "https://noticiasmercedinas.com/site/2025/04/22/achb-en-el-rolo-cardinal-se-cerro-la-cuarta-fecha/",
+    "source_title": "ACHB: en el «Rolo» Cardinal se cerró la cuarta fecha"
   },
   {
     "event_type": "No event",
@@ -91,7 +85,217 @@
     "date": null,
     "time": null,
     "summary": "No real-world event found.",
+    "source_url": "https://noticiasmercedinas.com/site/2025/04/19/principios-y-valores-recorre-mercedes-con-la-propuesta-de-guillermo-moreno/",
+    "source_title": "«Principios y Valores» recorre Mercedes con la propuesta de Guillermo Moreno"
+  },
+  {
+    "event_type": "Cultural or tourist event",
+    "city": "Mercedes",
+    "location": "Between calle 24 and calle 22",
+    "date": null,
+    "time": null,
+    "summary": "Bernardo Zubeldía is inaugurating his political local in Mercedes. The space aims to serve as a meeting point for dialogue and citizen participation.",
     "source_url": "https://noticiasmercedinas.com/site/2025/04/17/bernardo-zubeldia-abre-su-local-y-reafirma-su-compromiso-comunitario-con-una-propuesta-concreta/",
     "source_title": "Bernardo Zubeldía abre su local y reafirma su compromiso comunitario con una propuesta concreta"
+  },
+  {
+    "event_type": "No event",
+    "city": null,
+    "location": null,
+    "date": null,
+    "time": null,
+    "summary": "No real-world event found. The text discusses a formal note submitted to the City Council of Mercedes regarding CUNA's functioning and its participatory nature.",
+    "source_url": "https://noticiasmercedinas.com/site/2025/04/18/integrantes-de-cuna-reclaman-al-legislativo-y-ejecutivo-el-cumplimiento-de-la-ordenanza-de-creacion/",
+    "source_title": "Integrantes de CUNA reclaman al Legislativo y Ejecutivo el cumplimiento de la ordenanza de creación"
+  },
+  {
+    "event_type": "Cultural or tourist event",
+    "city": "Mercedes",
+    "location": "calle 34 esquina 27",
+    "date": "2023-04-26",
+    "time": "14:00",
+    "summary": "Recycling and mixed technique seminar by Pablín Rodríguez in Mercedes, 26th April, from 14:00 to 18:00. Vintage perchero project using recycled materials.",
+    "source_url": "https://noticiasmercedinas.com/site/2025/04/21/invitan-a-un-seminario-este-sabado-en-el-limonero/",
+    "source_title": "Invitan a un seminario, este sábado en El Limonero"
+  },
+  {
+    "event_type": "Infrastructure disruptions",
+    "city": "Suipacha",
+    "location": "Kilómetro 138.300 on the national route 5, near the downhill of the bridge over the arroyo Las Saladas",
+    "date": "2021-04-18",
+    "time": "11:40",
+    "summary": "Road accident at Kilómetro 138.300 on national route 5 near Suipacha and Chivilcoy, no fatalities reported",
+    "source_url": "https://noticiasmercedinas.com/site/2025/04/20/despiste-en-ruta-5-una-familia-cayo-con-su-auto-a-la-banquina-pero-resulto-ilesa/",
+    "source_title": "Despiste en ruta 5: una familia cayó con su auto a la banquina pero resultó ilesa"
+  },
+  {
+    "event_type": "Cultural or tourist event",
+    "city": "Capital Federal",
+    "location": "Gimnasio Pablo Tamagno del Club Estudiantes",
+    "date": "2022-11-18",
+    "time": null,
+    "summary": "Friendly basketball match between Estudiantes, GPS, and Los Lobos in Capital Federal on 18th November.",
+    "source_url": "https://noticiasmercedinas.com/site/2025/04/21/amistosos-de-estudiantes-en-femenino-y-masculino/",
+    "source_title": "Amistosos de Estudiantes en femenino y masculino"
+  },
+  {
+    "event_type": "Cultural or tourist event",
+    "city": "Gowland and Agote",
+    "location": "Sede de la sociedad de fomento de Gowland y Agote",
+    "date": "2023-11-21",
+    "time": null,
+    "summary": "Free flu vaccination event for seniors (65+) on 21st November at the Gowland and Agote Development Society headquarters.",
+    "source_url": "https://noticiasmercedinas.com/site/2025/04/17/mas-de-100-personas-se-vacunaron-contra-la-gripe-en-gowland/",
+    "source_title": "Más de 100 personas se vacunaron contra la gripe en Gowland"
+  },
+  {
+    "event_type": "No event",
+    "city": null,
+    "location": null,
+    "date": null,
+    "time": null,
+    "summary": "No real-world event found.",
+    "source_url": "https://noticiasmercedinas.com/site/2025/03/19/edicto-judicial-4/",
+    "source_title": "EDICTO JUDICIAL"
+  },
+  {
+    "event_type": "No event",
+    "city": null,
+    "location": null,
+    "date": null,
+    "time": null,
+    "summary": "No real-world event found.",
+    "source_url": "https://noticiasmercedinas.com/site/2025/04/19/maria-leonor-ballesteros-viuda-de-ponce-qepd/",
+    "source_title": "MARIA LEONOR BALLESTEROS VIUDA DE PONCE (QEPD)"
+  },
+  {
+    "event_type": "Conflict",
+    "city": "Capilla del Monte",
+    "location": "Capilla del Monte",
+    "date": "1976-03-24",
+    "time": null,
+    "summary": "Recollection of the military coup on March 24, 1976 and its impact in Capilla del Monte",
+    "source_url": "https://noticiasmercedinas.com/site/2025/03/24/la-historia-nunca-termina-y-la-memoria/",
+    "source_title": "La historia nunca termina… ¿Y la memoria?"
+  },
+  {
+    "event_type": "No event",
+    "city": "Luján",
+    "location": null,
+    "date": null,
+    "time": null,
+    "summary": "No real-world event found.",
+    "source_url": "https://noticiasmercedinas.com/site/2025/04/17/la-unlu-abre-la-inscripcion-para-mayores-de-25-anos-sin-secundario-completo/",
+    "source_title": "La UNLu abre la inscripción para mayores de 25 años sin secundario completo"
+  },
+  {
+    "event_type": "No event",
+    "city": null,
+    "location": null,
+    "date": null,
+    "time": null,
+    "summary": "No real-world event found.",
+    "source_url": "https://noticiasmercedinas.com/site/2025/04/22/amilcar-manuel-martinez-q-e-p-d/",
+    "source_title": "AMILCAR MANUEL MARTINEZ q.e.p.d."
+  },
+  {
+    "event_type": "Cultural or tourist event",
+    "city": "Buenos Aires",
+    "location": "Salón Dorado de la Casa de Gobierno",
+    "date": null,
+    "time": null,
+    "summary": "Governor Axel Kicillof announces Medicamentos Bonaerenses program in Buenos Aires to ensure public access to 74 essential medicines",
+    "source_url": "https://noticiasmercedinas.com/site/2025/04/08/la-provincia-presento-el-programa-medicamentos-bonaerenses/",
+    "source_title": "La Provincia presentó el programa Medicamentos Bonaerenses"
+  },
+  {
+    "event_type": "Cultural or tourist event",
+    "city": "Mercedes",
+    "location": "avenida 30 Nº 564",
+    "date": "2023-04-26",
+    "time": "20:30",
+    "summary": "Art exhibition 'Encuentro natural' opens at CAPBA5, avenida 360 on April 26th at 8:30 PM. Free admission.",
+    "source_url": "https://noticiasmercedinas.com/site/2025/04/22/se-inaugura-una-nueva-muestra-de-arte-en-el-colegio-de-arquitectos/",
+    "source_title": "Se inaugura una nueva muestra de arte en el Colegio de Arquitectos"
+  },
+  {
+    "event_type": "Cultural or tourist event",
+    "city": "Mercedina",
+    "location": "Liga Mercedina (exact location not provided, assuming it's a sports league venue)",
+    "date": "2022-10-23",
+    "time": null,
+    "summary": "Liga Mercedina of Football continues with matches on Wednesday: Estudiantes vs. Carteros and Juventud vs. All Haz.",
+    "source_url": "https://noticiasmercedinas.com/site/2025/04/20/empato-el-puntero-y-triunfo-trocha/",
+    "source_title": "Empató el puntero y triunfó Trocha"
+  },
+  {
+    "event_type": "Cultural or tourist event",
+    "city": "Mercedes-Luján",
+    "location": "Catedral Basílica de Mercedes",
+    "date": "2023-04-16",
+    "time": null,
+    "summary": "Mass Celebration in the Catedral Basílica de Mercedes for Año Jubilar",
+    "source_url": "https://noticiasmercedinas.com/site/2025/04/17/misa-crismal-arzobispo-llamo-a-cuidar-la-espiritualidad-y-la-afectividad-para-no-perder-el-fervor-pastoral/",
+    "source_title": "Misa Crismal: arzobispo llamó a cuidar la espiritualidad y la afectividad para no perder el fervor pastoral"
+  },
+  {
+    "event_type": "No event",
+    "city": null,
+    "location": null,
+    "date": null,
+    "time": null,
+    "summary": "No real-world event found.",
+    "source_url": "https://noticiasmercedinas.com/site/2025/04/15/dia-historico-la-universidad-nacional-de-pilar-comenzo-a-dictar-sus-clases/",
+    "source_title": "Día histórico: la Universidad Nacional de Pilar comenzó a dictar sus clases"
+  },
+  {
+    "event_type": "Cultural or tourist event",
+    "city": "Mercedes",
+    "location": "Salón de Eventos Martín Rodríguez, intersección de las calles 9 y 6",
+    "date": "2022-05-10",
+    "time": "19:30",
+    "summary": "Family Bingo event at Salón de Eventos Martín Rodríguez on May 10th, 7:30 PM. Live music by Tercer Tiempo, catering service and surprise prizes.",
+    "source_url": "https://noticiasmercedinas.com/site/2025/04/22/el-jardin-905-organiza-un-bingo-familiar-a-beneficio-con-musica-en-vivo-y-premios-sorpresa/",
+    "source_title": "El Jardín 905 organiza un bingo familiar a beneficio con música en vivo y premios sorpresa"
+  },
+  {
+    "event_type": "Cultural or tourist event",
+    "city": "Mercedes",
+    "location": "calle 30 esquina 45",
+    "date": "2023-04-16",
+    "time": "17:30",
+    "summary": "Open talk on disability rights and resources at Escuela Especial N° 503 ‘Paul Harris' in Mercedes",
+    "source_url": "https://noticiasmercedinas.com/site/2025/04/11/escuela-especial-503-abre-sus-puertas-a-la-comunidad-con-un-ciclo-de-charlas-sobre-discapacidad/",
+    "source_title": "Escuela Especial 503 abre sus puertas a la comunidad con un ciclo de charlas sobre discapacidad"
+  },
+  {
+    "event_type": "No event",
+    "city": null,
+    "location": null,
+    "date": null,
+    "time": null,
+    "summary": "No real-world event found.",
+    "source_url": "https://noticiasmercedinas.com/site/2025/04/20/el-barrio-estira-su-liderato/",
+    "source_title": "El “Barrio” estira su liderato"
+  },
+  {
+    "event_type": "No event",
+    "city": null,
+    "location": null,
+    "date": null,
+    "time": null,
+    "summary": "No real-world event found.",
+    "source_url": "https://noticiasmercedinas.com/site/2025/04/20/infanto-juvenil-se-jugo-parcialmente-la-novena-fecha/",
+    "source_title": "Infanto Juvenil: se jugó parcialmente la novena fecha"
+  },
+  {
+    "event_type": "No event",
+    "city": null,
+    "location": null,
+    "date": null,
+    "time": null,
+    "summary": "No real-world event found. Discussion about a program for social and labor inclusion of individuals transitioning from the penal system.",
+    "source_url": "https://noticiasmercedinas.com/site/2025/04/22/patronato-de-liberados-entrego-herramientas-a-una-persona-egresada-en-el-marco-del-programa-integrar/",
+    "source_title": "Patronato de Liberados entregó herramientas a una persona egresada en el marco del programa Integrar"
   }
 ]

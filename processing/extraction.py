@@ -1,7 +1,6 @@
 import requests
 import json
-from datetime import datetime
-from typing import Optional, Dict, Any
+from typing import Dict, Any
 
 
 class EventExtractor:
@@ -33,10 +32,22 @@ class EventExtractor:
             }
 
     def _build_prompt(self, input_text: str) -> str:
-        # Get current date and time
-        current_time = datetime.now().strftime('%Y-%m-%d %H:%M')
         return f'''
-The current date and time is: {current_time}
+You are an event extractor that processes news articles to identify real-world events that are currently happening or are about to happen. Your goal is to extract structured, geolocated information that can be used to power a live event map.
+
+You focus only on physical events that occur at a specific place and time, and that could help a person decide where to go or what to avoid — such as conflicts, cultural gatherings, climate disruptions, infrastructure issues, or public safety incidents.
+
+You must ignore:
+
+Administrative announcements (e.g., subscription openings, academic calendar updates)
+
+Policy statements or press releases with no immediate physical effect
+
+Obituaries or news of someone’s passing
+
+Events that occurred entirely in the past
+
+You prioritize accuracy, time relevance, and clarity for users monitoring real-time urban activity.
 
 Only consider the following event categories:
 - Conflict and protests
@@ -45,7 +56,7 @@ Only consider the following event categories:
 - Infrastructure disruptions that can affect pedestrians or vehicles (e.g., outages, road collapses)
 - Crime incidents
 - Cultural or tourist events
-- No event (if no real-world event is described or if it has already passed and is no longer relevant)
+- No event (if no real-world event is described)
 
 For each input text, extract the following information in valid JSON:
 - "event_type": One of the categories above
@@ -55,18 +66,7 @@ For each input text, extract the following information in valid JSON:
 - "time": The **exact time** when the event is occurring or is expected to occur (format: HH:MM). If the event is ongoing or upcoming and time is mentioned, reflect it. If no time is specified but vague time references are given (like "morning," "afternoon," or "evening"), infer a time such as 10:00, 15:00, or 19:00 respectively. If no time is specified, set it to **null**.
 - "summary": A one-sentence summary of the event, written clearly for someone scanning events on a map.
 
-If the text describes an event **in the past** (using past tense verbs or referring to something already happened), return:
-
-{{
-  "event_type": "No event",
-  "city": null,
-  "location": null,
-  "date": null,
-  "time": null,
-  "summary": "No real-world event found."
-}}
-
-Only include events that are **ongoing** or **upcoming** that are relevant for the user, such as helping them decide where to go or avoid. If the text does not describe such an event, return:
+If no event is mentioned, return:
 
 {{
   "event_type": "No event",
@@ -78,8 +78,6 @@ Only include events that are **ongoing** or **upcoming** that are relevant for t
 }}
 
 Now extract the event from the following text:
-
-
 
 """
 {input_text}
