@@ -13,6 +13,10 @@ def process_file(input_path, output_path):
     with open(input_path, "r", encoding="utf-8") as f:
         articles = json.load(f)
     results = []
+
+    from random import sample
+    articles = sample(articles, 10)
+
     for article in articles:
         text = article.get("full_text", "")
         event = EXTRACTOR.extract_event(text)

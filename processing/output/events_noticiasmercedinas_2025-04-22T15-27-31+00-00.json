@@ -1,714 +1,97 @@
 [
   {
-    "event_type": "Cultural or public event",
-    "location": "Mercedes",
-    "date": null,
-    "summary": "The city council of Mercedes debated over the usage of funds from the sale of a land in the Industrial Planning Sector. The opposition parties expressed concern about the lack of transparency regarding the destination of these funds.",
-    "source_url": "https://noticiasmercedinas.com/site/2025/04/16/concejales-de-la-ucr-critican-al-oficialismo-por-la-falta-de-dialogo-sobre-el-destino-de-500-mil-dolares-del-parque-industrial/",
-    "source_title": "Concejales de la UCR critican al oficialismo por la falta de diálogo sobre el destino de 500 mil dólares del Parque Industrial"
-  },
-  {
-    "event_type": "Cultural or public events",
-    "location": "Mercedes, Distrito 5",
-    "date": "2023-04-26",
-    "summary": "Art exhibit titled 'Encuentro natural' inaugurated at Colegio de Arquitectos – Distrito 5 in Mercedes on April 26.",
-    "source_url": "https://noticiasmercedinas.com/site/2025/04/22/se-inaugura-una-nueva-muestra-de-arte-en-el-colegio-de-arquitectos/",
-    "source_title": "Se inaugura una nueva muestra de arte en el Colegio de Arquitectos"
-  },
-  {
-    "event_type": "Cultural or public events",
-    "location": "San Miguel, Buenos Aires, Argentina",
-    "date": null,
-    "summary": "The Union Civica Radical held an event for the asumption of new local committee authorities in San Miguel, Buenos Aires. The event emphasized the need for permanent dialogue between party leaders, legislators, and militants.",
-    "source_url": "https://noticiasmercedinas.com/site/2025/04/16/dirigentes-mercedinos-participaron-del-acto-de-asuncion-de-autoridades-de-la-ucr-en-san-miguel/",
-    "source_title": "Dirigentes mercedinos participaron del acto de asunción de autoridades de la UCR en San Miguel"
-  },
-  {
-    "event_type": "Cultural or public event",
-    "location": "Mercedes",
-    "date": null,
-    "summary": "Bernardo Zubeldía is opening a local partisan office in Mercedes. The event highlights the initiative to create a Volunteer Blood Bank, aiming to institutionalize community solidarity and improve emergency response times.",
-    "source_url": "https://noticiasmercedinas.com/site/2025/04/17/bernardo-zubeldia-abre-su-local-y-reafirma-su-compromiso-comunitario-con-una-propuesta-concreta/",
-    "source_title": "Bernardo Zubeldía abre su local y reafirma su compromiso comunitario con una propuesta concreta"
-  },
-  {
-    "event_type": "Cultural or public events",
-    "location": "Mercedes, Argentina (and Gowland, a locality within Mercedes)",
-    "date": null,
-    "summary": "Political group 'Principios y Valores' holds weekly rallies in Mercedes and this Saturday visited Gowland. They engaged in door-to-door dialogues with locals.",
-    "source_url": "https://noticiasmercedinas.com/site/2025/04/19/principios-y-valores-recorre-mercedes-con-la-propuesta-de-guillermo-moreno/",
-    "source_title": "«Principios y Valores» recorre Mercedes con la propuesta de Guillermo Moreno"
-  },
-  {
-    "event_type": "Cultural or public event",
-    "location": null,
-    "date": null,
-    "summary": "Argentine national deputy Vanesa Siley criticizes government's labor policies, stating that after more than a year of governance, the reforms implemented by the current administration have failed. She also mentioned that laws such as Law Bases and DNU 70/2023 did not improve registered employment but rather increased informal labor.",
-    "source_url": "https://noticiasmercedinas.com/site/2025/04/17/vanesa-siley-las-reformas-laborales-de-milei-fracasaron/",
-    "source_title": "Vanesa Siley: “Las reformas laborales de Milei fracasaron”"
-  },
-  {
-    "event_type": "Cultural or public event",
-    "location": "Mercedes",
-    "date": null,
-    "summary": "Justicialist group Principios y Valores calls for a table of work to decide the use of funds from a sold industrial property in Mercedes. The goal is to create a productive or social development project.",
-    "source_url": "https://noticiasmercedinas.com/site/2025/04/20/principios-y-valores-propuso-una-mesa-de-trabajo-para-definir-el-destino-de-fondos/",
-    "source_title": "Principios y Valores propuso una mesa de trabajo para definir el destino de fondos"
-  },
-  {
-    "event_type": "Infrastructure disruptions",
-    "location": "Gowland",
-    "date": null,
-    "summary": "The City of Mercedes is building a new fire station in Gowland using funds originally allocated for industrial infrastructure.",
-    "source_url": "https://noticiasmercedinas.com/site/2025/04/16/plantear-que-haya-fondos-publicos-sobre-los-que-no-existe-control-es-absolutamente-falso/",
-    "source_title": "«Plantear que haya fondos públicos sobre los que no existe control es absolutamente falso»"
-  },
-  {
-    "event_type": "Cultural or public events",
-    "location": "Mercedes",
-    "date": "202X-04-29",
-    "summary": "A new political space led by María Eugenia Talerico will be officially launched with its own brand on 202X-04-29 in Mercedes. The new coalition aims to present a local alternative as well.",
-    "source_url": "https://noticiasmercedinas.com/site/2025/04/20/carlos-mosso-se-suma-al-espacio-de-maria-eugenia-talerico-y-anticipa-presentacion-local/",
-    "source_title": "Carlos Mosso se suma al espacio de María Eugenia Talerico y anticipa presentación local"
-  },
-  {
-    "event_type": "Cultural or public event",
-    "location": "Mercedes, Argentina",
-    "date": "2023-04-16",
-    "summary": "Mass Crismal celebrated in the Catedral Basílica de Mercedes on April 16, 2023, attended by local clergy and faithful.",
-    "source_url": "https://noticiasmercedinas.com/site/2025/04/17/misa-crismal-arzobispo-llamo-a-cuidar-la-espiritualidad-y-la-afectividad-para-no-perder-el-fervor-pastoral/",
-    "source_title": "Misa Crismal: arzobispo llamó a cuidar la espiritualidad y la afectividad para no perder el fervor pastoral"
-  },
-  {
-    "event_type": "Cultural or public events",
-    "location": "Mercedes",
-    "date": null,
-    "summary": "Traditional Visita a las Siete Iglesias event took place in Mercedes on Thursday night despite heavy rain.",
-    "source_url": "https://noticiasmercedinas.com/site/2025/04/18/a-pesar-de-la-lluvia-se-realizo-la-tradicional-visita-a-las-siete-iglesias-en-mercedes/",
-    "source_title": "A pesar de la lluvia, se realizó la tradicional visita a las siete iglesias en Mercedes"
-  },
-  {
-    "event_type": "Cultural or public events",
-    "location": "Mercedes",
-    "date": null,
-    "summary": "Members of the cultural project CUNA have presented a formal note to the Deliberative Council of Mercedes demanding that the space returns to functioning with an integrated commission as stated in the ordinance that gave it origin.",
-    "source_url": "https://noticiasmercedinas.com/site/2025/04/18/integrantes-de-cuna-reclaman-al-legislativo-y-ejecutivo-el-cumplimiento-de-la-ordenanza-de-creacion/",
-    "source_title": "Integrantes de CUNA reclaman al Legislativo y Ejecutivo el cumplimiento de la ordenanza de creación"
-  },
-  {
-    "event_type": "Infrastructure disruptions",
-    "location": "Mercedes",
-    "date": null,
-    "summary": "Improvements made in three educational institutions of Mercedes: repair of filtrations and roofing in the Special School No. 503, installation of new doors in all classrooms at Primary School No. 13, and improvement of the playground and addition of a mangrove for children's enjoyment at Kindergarten No. 905.",
-    "source_url": "https://noticiasmercedinas.com/site/2025/04/19/escuelas-publicas-mejoran-su-infraestructura-gracias-al-presupuesto-participativo/",
-    "source_title": "Escuelas públicas mejoran su infraestructura gracias al Presupuesto Participativo"
-  },
-  {
-    "event_type": "Cultural or public events",
-    "location": "San José Obrero, Mercedes",
-    "date": "2022-05-01",
-    "summary": "Community of San José Obrero in Mercedes is holding its Patron Saints' festival on May 1, 2022, with a mass at 11 am, followed by a community lunch and sale of lentil stew for charity.",
-    "source_url": "https://noticiasmercedinas.com/site/2025/04/20/comunidad-de-san-jose-obrero-celebra-fiestas-patronales-el-1-de-mayo/",
-    "source_title": "Comunidad de San José Obrero celebra Fiestas Patronales el 1° de mayo"
-  },
-  {
-    "event_type": "No event",
-    "location": null,
-    "date": null,
-    "summary": "No real-world event found.",
-    "source_url": "https://noticiasmercedinas.com/site/2025/04/21/modifican-temporalmente-la-circulacion-en-calles-por-avance-del-canal-santa-maria/",
-    "source_title": "Modifican temporalmente la circulación en calles por avance del Canal Santa María"
-  },
-  {
-    "event_type": "No event",
-    "location": null,
-    "date": null,
-    "summary": "No real-world event found.",
-    "source_url": "https://noticiasmercedinas.com/site/2025/04/21/conmocion-mundial-por-la-muerte-del-papa-francisco-habra-misas-especiales-en-mercedes-y-lujan/",
-    "source_title": "Conmoción mundial por la muerte del Papa Francisco: habrá misas especiales en Mercedes y Luján"
-  },
-  {
-    "event_type": "Conflict and protests",
-    "location": "Argentina (specific location not mentioned)",
-    "date": "1976-03-24",
-    "summary": "On March 24, 1976, a military coup occurred in Argentina, marking the beginning of a dark period characterized by state violence.",
-    "source_url": "https://noticiasmercedinas.com/site/2025/03/24/24-de-marzo-memoria-y-reflexion/",
-    "source_title": "24 de marzo: Memoria y Reflexión"
-  },
-  {
-    "event_type": "Conflict and protests",
-    "location": "Capilla del Monte",
-    "date": "1976-03-24",
-    "summary": "A military coup took place in Argentina on March 24, 1976. The event is remembered by Virginia Altube as it affected her family and many others, leading to solidarity among people.",
-    "source_url": "https://noticiasmercedinas.com/site/2025/03/24/la-historia-nunca-termina-y-la-memoria/",
-    "source_title": "La historia nunca termina… ¿Y la memoria?"
-  },
-  {
-    "event_type": "Health outbreaks and emergencies",
-    "location": "Argentina (Buenos Aires Province)",
-    "date": null,
-    "summary": "The Argentine government is facing criticism for dismantling health programs, underfunding public health, and cutting food assistance, which threatens maternal and child health.",
-    "source_url": "https://noticiasmercedinas.com/site/2025/04/03/salud-en-riesgo-el-impacto-del-ajuste-en-la-vida-de-las-y-los-argentinos/",
-    "source_title": "Salud en riesgo: El impacto del ajuste en la vida de las y los argentinos"
-  },
-  {
-    "event_type": "Cultural or public event",
-    "location": "Mercedes",
-    "date": null,
-    "summary": "Vecinos por Mercedes is confirmed to participate in the upcoming legislative elections.",
-    "source_url": "https://noticiasmercedinas.com/site/2025/03/20/bernardo-zubeldia-las-propuestas-deben-surgir-de-los-vecinos-no-de-un-manual-partidario/",
-    "source_title": "Bernardo Zubeldía: “Las propuestas deben surgir de los vecinos, no de un manual partidario”"
-  },
-  {
-    "event_type": "Cultural or public event",
-    "location": "Mercedes, Argentina",
-    "date": null,
-    "summary": "A mural dedicated to journalist José Luis Cabezas, who was murdered for his work, is damaged. Local journalists worked together to repair it as a symbolic act of justice.",
-    "source_url": "https://noticiasmercedinas.com/site/2025/04/16/no-nos-olvidemos-de-jose-luis-cabezas/",
-    "source_title": "No nos olvidemos de José Luis Cabezas"
-  },
-  {
-    "event_type": "Conflict and protests",
-    "location": "Ciudad de Buenos Aires, Argentina",
-    "date": "2022-XX-XX",
-    "summary": "Journalists experienced repression during a protest in Buenos Aires. The government is using violence to discourage mobilization.",
-    "source_url": "https://noticiasmercedinas.com/site/2025/03/20/disparar-una-granada-a-la-cabeza-de-un-fotografo-es-un-mensaje-directo/",
-    "source_title": "«Disparar una granada a la cabeza de un fotógrafo es un mensaje directo»"
-  },
-  {
-    "event_type": "Cultural or public events",
-    "location": "Mercedes, Argentina (Colectora 600 y Acceso Sur)",
-    "date": "18-04-2023",
-    "summary": "Local cultural space 'Microcervecería 6600' hosting live music performances over the long weekend starting from Friday with Las Polillas de Poliéster, Virginia Altube and Damián Tessore.",
-    "source_url": "https://noticiasmercedinas.com/site/2025/04/18/arturo-puga-el-arte-y-la-musica-le-ponen-brillo-a-la-vida/",
-    "source_title": "Arturo Puga: “El arte y la música le ponen brillo a la vida”"
-  },
-  {
-    "event_type": "Cultural or public events",
-    "location": "Mercedes",
-    "date": "2021-04-18",
-    "summary": "Funeral ceremony of an individual named Bria on April 18, 2021 from 8:00 AM to 10:45 AM at Casa Velatoria Municipal, followed by a response, inhumation at Local Cemetery and visitation at Calle 59 entre 18 y 20.",
-    "source_url": "https://noticiasmercedinas.com/site/2025/04/17/manuel-alberto-bria-qepd/",
-    "source_title": "MANUEL ALBERTO BRIA (QEPD)"
-  },
-  {
-    "event_type": "Cultural or public events",
-    "location": "Suipacha (Province not specified in text)",
-    "date": "2023-04-24 to 2023-04-27",
-    "summary": "The annual Expo Suipacha event will take place from April 24th to 27th, bringing together the local community for a combination of training, entertainment, and popular gatherings at the Predio de la Sociedad Rural de Suipacha, on Route 5, kilometer 128.5.",
-    "source_url": "https://noticiasmercedinas.com/site/2025/04/10/todo-listo-para-la-expo-suipacha-2025-una-propuesta-para-disfrutar-en-familia/",
-    "source_title": "Todo listo para la Expo Suipacha 2025: una propuesta para disfrutar en familia"
-  },
-  {
-    "event_type": "No event",
-    "location": null,
-    "date": null,
-    "summary": "No real-world event found.",
-    "source_url": "https://noticiasmercedinas.com/site/2025/04/19/maria-leonor-ballesteros-viuda-de-ponce-qepd/",
-    "source_title": "MARIA LEONOR BALLESTEROS VIUDA DE PONCE (QEPD)"
-  },
-  {
-    "event_type": "Cultural or public events",
-    "location": "Mercedes",
-    "date": "2025-04-21",
-    "summary": "Funeral service for a 88-year-old individual will be held on April 21, 2025, at 11:30 AM in the cemetery of Mercedes. The vigil and viewing will take place on April 20, from 3 PM at the address Calle 503 y 500.",
-    "source_url": "https://noticiasmercedinas.com/site/2025/04/20/jose-eloy-bertana-qepd/",
-    "source_title": "JOSÉ ELOY BERTANA (QEPD)"
-  },
-  {
-    "event_type": "Cultural or public events",
-    "location": "Mercedes",
-    "date": "2025-04-21",
-    "summary": "Funeral ceremony of a 74-year-old individual will take place in Mercedes on April 21 at 10:00 AM, following official proceedings at the Iglesia San Luis. Previous vigil at Casa Velatoria No. 891 from 2:00 PM on April 20.",
-    "source_url": "https://noticiasmercedinas.com/site/2025/04/20/pedro-alberto-palacios-qepd/",
-    "source_title": "PEDRO ALBERTO PALACIOS (QEPD)"
-  },
-  {
-    "event_type": "Cultural or public events",
-    "location": "City not specified (Mentioned locations: Casa Velatoria - 22 N° 891, Casa de duelo - 502 y 701 Gowland)",
-    "date": "2025-04-22",
-    "summary": "Celebration of life for c.a.s.r.y b.p., to be held at Casa Velatoria and Casa de duelo on April 22, 2025, with the remains to be transferred to the Municipal Cemetery later that day.",
-    "source_url": "https://noticiasmercedinas.com/site/2025/04/22/amilcar-manuel-martinez-q-e-p-d/",
-    "source_title": "AMILCAR MANUEL MARTINEZ q.e.p.d."
-  },
-  {
-    "event_type": "Cultural or public event",
-    "location": "City not specified (mentioned: Iglesia San Luis)",
-    "date": "2025-04-22",
-    "summary": "A funeral service will be held for c.a.s.r.y b.p. at the Church of San Luis on Tuesday, April 22, 2025, at 11:30 am. The gathering point is at the church atrium and the wake will take place at 21 N° 1089.",
-    "source_url": "https://noticiasmercedinas.com/site/2025/04/21/haydee-carmen-bianco-vda-de-moraglio-qepd/",
-    "source_title": "HAYDEE CARMEN BIANCO VDA de MORAGLIO. (QEPD)"
-  },
-  {
-    "event_type": "Cultural or public events",
-    "location": "Pilar",
-    "date": null,
-    "summary": "Students of the Universidad Nacional de Pilar began their curricular classes after completing pre-enrollment. The intendente Federico Achával accompanied students on this occasion at both the Pellegrini and industrial park campuses.",
-    "source_url": "https://noticiasmercedinas.com/site/2025/04/15/dia-historico-la-universidad-nacional-de-pilar-comenzo-a-dictar-sus-clases/",
-    "source_title": "Día histórico: la Universidad Nacional de Pilar comenzó a dictar sus clases"
-  },
-  {
-    "event_type": "Cultural or public events",
-    "location": "Universidad Nacional de Luján",
-    "date": "2025-06-07",
-    "summary": "First Congress of Agroecology of the Peoples will take place at Universidad Nacional de Luján on 7th June 2025.",
-    "source_url": "https://noticiasmercedinas.com/site/2025/04/10/invitan-a-participar-del-congreso-de-agroecologia-de-los-pueblos-del-monocultivo-a-la-biodiversidad/",
-    "source_title": "Invitan a participar del Congreso de Agroecología de los Pueblos: “Del monocultivo a la biodiversidad”"
-  },
-  {
-    "event_type": "Cultural or public events",
-    "location": "Mercedes (city or region not specified in the text)",
-    "date": null,
-    "summary": "A workshop on plant propagation was held at the Municipal Vivero of Mercedes.",
-    "source_url": "https://noticiasmercedinas.com/site/2025/04/13/realizaron-un-taller-sobre-reproduccion-de-plantas-por-esquejes-en-el-vivero-municipal/",
-    "source_title": "Realizaron un taller sobre reproducción de plantas por esquejes en el Vivero Municipal"
-  },
-  {
-    "event_type": "Cultural or public events",
-    "location": "Mercedes, calle 30 esquina 45",
-    "date": "2021-04-16",
-    "summary": "The Cooperation Association of School Special No. 503 'Paul Harris' will start a series of open talks aimed at providing tools and information about the rights of people with disabilities and access to different resources. The first talk will take place on April 16, 2021, at 17:30 hours at the institution's headquarters.",
-    "source_url": "https://noticiasmercedinas.com/site/2025/04/11/escuela-especial-503-abre-sus-puertas-a-la-comunidad-con-un-ciclo-de-charlas-sobre-discapacidad/",
-    "source_title": "Escuela Especial 503 abre sus puertas a la comunidad con un ciclo de charlas sobre discapacidad"
-  },
-  {
-    "event_type": "Infrastructure disruptions",
-    "location": "Luján, Argentina",
-    "date": "2025-04-03",
-    "summary": "Court decision ratifies the resumption of construction works for an environmental center in Luján, Argentina.",
-    "source_url": "https://noticiasmercedinas.com/site/2025/04/12/la-corte-suprema-ratifico-que-el-estado-nacional-debe-finalizar-la-reconversion-del-basural-de-lujan/",
-    "source_title": "La Corte Suprema ratificó que el Estado Nacional debe finalizar la reconversión del basural de Luján"
-  },
-  {
-    "event_type": "Cultural or public events",
-    "location": "CABA (City of Buenos Aires, Argentina)",
-    "date": null,
-    "summary": "A professional course for those interested in childhood and adolescence topics titled 'Infancias y adolescencias hoy: desafíos e intervenciones desde la clínica y la educación' is ongoing. The course is happening virtually, allowing participation from various locations across the country.",
-    "source_url": "https://noticiasmercedinas.com/site/2025/04/14/profesionales-de-la-region-ya-participan-del-curso-de-actualizacion-del-forum-infancias-e-invitan-a-sumarse/",
-    "source_title": "Profesionales de la región ya participan del curso de actualización del Forum Infancias e invitan a sumarse"
-  },
-  {
-    "event_type": "Cultural or public events",
-    "location": "Mercedes (city, Argentina)",
-    "date": null,
-    "summary": "A cultural campaign for autism awareness is launched in Mercedes, Argentina with the goal of promoting understanding, empathy, and inclusion. The campaign, called 'Building a World without Barriers', was declared a matter of legislative interest by the City Council.",
-    "source_url": "https://noticiasmercedinas.com/site/2025/04/16/la-pena-los-cuervos-de-mercedes-impulsa-campana-de-concientizacion-sobre-el-autismo/",
-    "source_title": "La Peña Los Cuervos de Mercedes impulsa campaña de concientización sobre el autismo"
-  },
-  {
-    "event_type": "Cultural or public events",
-    "location": "Gowland, Mercedes",
-    "date": null,
-    "summary": "Free flu vaccine distribution event for seniors (65+) held in Gowland by the Municipalidad de Mercedes.",
-    "source_url": "https://noticiasmercedinas.com/site/2025/04/17/mas-de-100-personas-se-vacunaron-contra-la-gripe-en-gowland/",
-    "source_title": "Más de 100 personas se vacunaron contra la gripe en Gowland"
-  },
-  {
-    "event_type": "Cultural or public events",
-    "location": "Mercedes",
-    "date": "2023-04-19",
-    "summary": "Taller de Constelaciones Familiares will be held in Mercedes on April 19, 2023.",
-    "source_url": "https://noticiasmercedinas.com/site/2025/04/17/se-realizara-un-nuevo-taller-de-constelaciones-familiares-en-mercedes/",
-    "source_title": "Se realizará un nuevo Taller de Constelaciones Familiares en Mercedes"
-  },
-  {
-    "event_type": "Cultural or public events",
-    "location": "Mercedes (B)",
-    "date": "2025-02-04",
-    "summary": "Transfer of ownership for the 'MUNDO ARCO IRIS' children's event hall business from Stanley Leonardo Jose Maria Cuit 20-26271714-4 to Mosca Georgina Paola cuit: 27-33134326-9.",
-    "source_url": "https://noticiasmercedinas.com/site/2025/02/28/edicto-aviso-de-transferencia-de-comercio/",
-    "source_title": "Edicto: AVISO DE TRANSFERENCIA DE COMERCIO"
-  },
-  {
-    "event_type": "No event",
-    "location": "Mercedes, Argentina",
-    "date": "2025-03-18",
-    "summary": "Judicial proceeding scheduled for a case in Mercedes, Argentina.",
-    "source_url": "https://noticiasmercedinas.com/site/2025/03/19/edicto-judicial-4/",
-    "source_title": "EDICTO JUDICIAL"
-  },
-  {
-    "event_type": "No event",
-    "location": null,
-    "date": null,
-    "summary": "No real-world event found.",
-    "source_url": "https://noticiasmercedinas.com/site/2025/04/04/arba-habilito-el-pago-anual-del-inmobiliario-rural-con-descuentos-de-hasta-el-15/",
-    "source_title": "ARBA habilitó el pago anual del Inmobiliario Rural con descuentos de hasta el 15%"
-  },
-  {
-    "event_type": "Cultural or public event",
-    "location": "Provincia de Buenos Aires, Argentina",
-    "date": null,
-    "summary": "Governor of the Province of Buenos Aires, Axel Kicillof, announced a program to ensure public coverage for 74 essential medicines.",
-    "source_url": "https://noticiasmercedinas.com/site/2025/04/08/la-provincia-presento-el-programa-medicamentos-bonaerenses/",
-    "source_title": "La Provincia presentó el programa Medicamentos Bonaerenses"
-  },
-  {
-    "event_type": "Infrastructure disruptions",
-    "location": "Provincia de Buenos Aires",
-    "date": null,
-    "summary": "The Ministry of Transport in Buenos Aires Province denounced 62 fake Verification Technical Vehicle (VTV) pages on Facebook and online marketplaces. This action was taken after it was found that the service was offered illegally.",
-    "source_url": "https://noticiasmercedinas.com/site/2025/04/11/el-ministerio-de-transporte-lleva-a-la-justicia-a-las-paginas-de-vtv-truchas/",
-    "source_title": "El Ministerio de Transporte lleva a la Justicia a las páginas de VTV truchas"
-  },
-  {
-    "event_type": "Infrastructure disruptions",
-    "location": "Provincia de Buenos Aires (Argentina)",
-    "date": null,
-    "summary": "Transportation Ministry of the Province of Buenos Aires is taking measures to reduce road accidents during the Easter weekend.",
-    "source_url": "https://noticiasmercedinas.com/site/2025/04/17/por-semana-santa-transporte-despliega-operativos-en-toda-la-provincia/",
-    "source_title": "Por Semana Santa, Transporte despliega operativos en toda la Provincia"
-  },
-  {
-    "event_type": "Cultural or public events",
-    "location": null,
-    "date": null,
-    "summary": "A report by the Thomson Reuters Foundation discusses how artificial intelligence is transforming journalism in the Southern Hemisphere. The study focuses on over 200 journalists across 70 countries in Africa, Asia, Latin America and the Middle East.",
-    "source_url": "https://noticiasmercedinas.com/site/2025/03/31/informe-ia-y-periodismo-en-el-sur-global/",
-    "source_title": "Informe: IA y periodismo en el sur global"
-  },
-  {
-    "event_type": "Cultural or public event",
-    "location": "Florencio Varela",
-    "date": null,
-    "summary": "Guitarrista Gustavo Ginoi visitó el programa radial 'Llegaron los Blues' en Florencio Varela",
-    "source_url": "https://noticiasmercedinas.com/site/2025/04/06/gustavo-ginoi-visito-el-programa-llegaron-los-blues-y-compartio-su-historia-musical/",
-    "source_title": "Gustavo Ginoi visitó el programa “Llegaron los Blues” y compartió su historia musical"
-  },
-  {
-    "event_type": "Cultural or public events",
-    "location": "Not specified in the text",
-    "date": null,
-    "summary": "Radio station Meridiano 105.3 is temporarily off-air due to renovation and optimization work aiming at improving transmission quality.",
-    "source_url": "https://noticiasmercedinas.com/site/2025/04/15/fm-meridiano-interrumpio-su-transmision-por-mejoras-tecnicas/",
-    "source_title": "FM Meridiano interrumpió su transmisión por mejoras técnicas"
-  },
-  {
-    "event_type": "No event",
-    "location": null,
-    "date": null,
-    "summary": "The text does not describe a real-world event. It is about the recommendation of an anime streaming platform called 'Ver Anime Online'.",
-    "source_url": "https://noticiasmercedinas.com/site/2025/04/16/la-mejor-plataforma-para-ver-anime-online-gratis-descubre-sus-ventajas/",
-    "source_title": "La Mejor Plataforma para Ver Anime Online Gratis: Descubre sus Ventajas"
-  },
-  {
-    "event_type": "Cultural or public event",
-    "location": "Luján, provincia de Buenos Aires",
-    "date": null,
-    "summary": "Universidad Nacional de Luján (UNLu) opens enrollment for adults over 25 who have not completed secondary education to start a university career. Enrollment period is from April 15 to August 29 for the Cohort 2026.",
-    "source_url": "https://noticiasmercedinas.com/site/2025/04/17/la-unlu-abre-la-inscripcion-para-mayores-de-25-anos-sin-secundario-completo/",
-    "source_title": "La UNLu abre la inscripción para mayores de 25 años sin secundario completo"
-  },
-  {
-    "event_type": "Cultural or public events",
-    "location": "Navarro",
-    "date": "2023-04-26",
-    "summary": "First Tango and Milonga Festival takes place at Microestadio Abel Salvatto, Navarro on 26th April at 8 PM. It's a free event offering live music, dance, and gastronomy.",
-    "source_url": "https://noticiasmercedinas.com/site/2025/04/21/navarro-celebra-su-primer-festival-de-tango-con-entrada-libre-y-gratuita/",
-    "source_title": "Navarro celebra su Primer Festival de Tango con entrada libre y gratuita"
-  },
-  {
-    "event_type": "Cultural or public events",
-    "location": "Suipacha",
-    "date": "2025-04-24",
-    "summary": "Expo Suipacha 2025, a major agricultural event in the calendar, will take place from April 24 to 27 in Suipacha.",
-    "source_url": "https://noticiasmercedinas.com/site/2025/04/21/la-expo-suipacha-2025-ya-tiene-cronograma-completo-y-sera-este-fin-de-semana/",
-    "source_title": "La Expo Suipacha 2025 ya tiene cronograma completo y será este fin de semana"
-  },
-  {
-    "event_type": "No event",
-    "location": null,
-    "date": null,
-    "summary": "No real-world event found.",
-    "source_url": "https://noticiasmercedinas.com/site/2025/04/17/analisis-del-partido-que-influye-en-la-victoria-y-que-errores-pueden-costarte-el-titulo/",
-    "source_title": "Análisis del partido: ¿Qué influye en la victoria y qué errores pueden costarte el título?"
-  },
-  {
-    "event_type": "Cultural or public events",
-    "location": "Alberti",
-    "date": "2023-05-11",
-    "summary": "The event 'EDEN Conecta' will be part of the Fiesta Provincial de la Harina in Alberti on May 11, from 10 am to 6 pm.",
-    "source_url": "https://noticiasmercedinas.com/site/2025/04/17/eden-conecta-se-suma-a-la-fiesta-de-la-harina-en-alberti/",
-    "source_title": "«EDEN Conecta» se suma a la Fiesta de la Harina en Alberti"
-  },
-  {
-    "event_type": "Cultural or public events",
-    "location": "Mercedes",
-    "date": null,
-    "summary": "The second edition of 'Quesos en Escena' (Cheese on Stage), the Artisan Cheesemakers Meeting, is being held this Saturday in Mercedes. The main activities will take place at the Argentino Theatre, featuring gastronomic, cultural and local promotion proposals. The day starts at 11 am in Plaza San Martín with guided tours, tastings, a gourmet food fair, music, and a festive closing that will last until midnight. The event aims to be a meeting point for artisanal cheese producers and the public.",
-    "source_url": "https://noticiasmercedinas.com/site/2025/04/19/todo-listo-para-quesos-en-escena-este-sabado-el-teatro-argentino-sera-sede-central-del-festival/",
-    "source_title": "Todo listo para “Quesos en Escena”: este sábado, el Teatro Argentino será sede central del festival"
-  },
-  {
-    "event_type": "No event",
-    "location": null,
-    "date": null,
-    "summary": "No real-world event found.",
-    "source_url": "https://noticiasmercedinas.com/site/2025/04/20/como-sacar-el-maximo-partido-a-las-promociones-de-los-casinos-en-linea/",
-    "source_title": "Cómo sacar el máximo partido a las promociones de los casinos en línea"
-  },
-  {
-    "event_type": "Cultural or public events",
-    "location": "Mercedes, Argentina (Calle 26 esquina 41)",
-    "date": "2023-04-25",
-    "summary": "An exclusive wine tasting event titled 'Descubriendo a Piazzolla' will be held on April 25, 2023 at Bistro Mercedes in Mercedes, Argentina.",
+    "event_type": "Cultural or tourist events",
+    "city": null,
+    "location": "Bustro Mercedes, calles 26 esquina 41",
+    "date": "2025-04-25",
+    "time": null,
+    "summary": "En el próximo jueves 25 de abril, en Bistro Mercedes ubicado en calles 26 esquina 41, se realizará una cctype de vinos exclusiva con live music.",
     "source_url": "https://noticiasmercedinas.com/site/2025/04/20/anuncian-una-cata-de-vinos-y-tapeo-con-show-musical-en-bistro/",
     "source_title": "Anuncian una cata de vinos y tapeo con show musical en Bistro"
   },
   {
-    "event_type": "Cultural or public events",
-    "location": "Not specified in the text",
-    "date": null,
-    "summary": "The text describes a recommendation of classic anime series available on Ver Anime Online for rewatching.",
-    "source_url": "https://noticiasmercedinas.com/site/2025/04/21/anime-clasico-que-puedes-volver-a-ver-hoy-en-ver-anime-online/",
-    "source_title": "Anime clásico que puedes volver a ver hoy en Ver Anime Online"
-  },
-  {
-    "event_type": "Cultural or public event",
-    "location": "Mercedes (location inferred from the address 'colectora 600 y ruta 5')",
-    "date": null,
-    "summary": "Virginia Altube gave a free show at Microcervecería 6600 in Mercedes, Argentina, attended by a large crowd.",
-    "source_url": "https://noticiasmercedinas.com/site/2025/04/20/tarde-de-musica-y-reencuentros-con-virginia-altube-en-el-galpon-cervecero/",
-    "source_title": "Tarde de música y reencuentros con Virginia Altube en el galpón cervecero"
-  },
-  {
-    "event_type": "Cultural or public events",
-    "location": "Mercedes",
-    "date": "2023-04-26",
-    "summary": "A free workshop titled 'The art of communication: oratory as a tool for impact' will be held at the Cámara Económica Mercedina (CEM) on April 26, 2023, aiming to empower women's voices, leadership, and communication skills.",
-    "source_url": "https://noticiasmercedinas.com/site/2025/04/21/capacitacion-en-oratoria-con-carolina-galeano-en-la-camara-economica-mercedina/",
-    "source_title": "Capacitación en oratoria con Carolina Galeano en la Cámara Económica Mercedina"
-  },
-  {
-    "event_type": "Cultural or public events",
-    "location": "Mercedes, provincia de Buenos Aires",
-    "date": null,
-    "summary": "La Sistifor Society launches their new rock ballad 'Cada vez', available on digital platforms and a video lyrics version on YouTube. The band will perform live in May at La Cultural Dumer.",
-    "source_url": "https://noticiasmercedinas.com/site/2025/04/20/la-sistifor-society-lanza-su-nuevo-tema-cada-vez-una-balada-rock-potente-y-emotiva/",
-    "source_title": "La Sistifor Society lanza su nuevo tema «Cada vez», una balada rock potente y emotiva"
-  },
-  {
-    "event_type": "Cultural or public events",
-    "location": "Mitus, Mercedes, provincia de Buenos Aires (Calle 22 Nº 617 entre 25 y 27)",
-    "date": "2023-04-26",
-    "summary": "Live music event at Mitus on April 26th featuring Gruvin Band and La Desgracia de la Tole.",
-    "source_url": "https://noticiasmercedinas.com/site/2025/04/21/mitus-propone-una-semana-de-zapadas-rock-y-funk/",
-    "source_title": "Mitus propone una semana de zapadas, rock y funk"
-  },
-  {
-    "event_type": "No event",
-    "location": null,
-    "date": null,
-    "summary": "No real-world event found.",
-    "source_url": "https://noticiasmercedinas.com/site/2025/04/21/continua-el-ciclo-saldremos-por-los-barrios-este-miercoles-en-el-eva-duarte-con-teatro-y-cultura-popular/",
-    "source_title": "Continúa el ciclo “Saldremos por los Barrios” este miércoles en el Eva Duarte con teatro y cultura popular"
-  },
-  {
-    "event_type": "Crime incidents",
-    "location": "City where the College San José is located",
-    "date": "2024-04-16",
-    "summary": "A robbery occurred at CISCO, a men's clothing store located on the corner of streets 14 and 25, in front of College San José, estimated to have taken 400,000 pesos in cash and various garments.",
-    "source_url": "https://noticiasmercedinas.com/site/2025/04/16/robo-en-un-comercio-de-indumentaria-en-pleno-centro-de-mercedes/",
-    "source_title": "Robo en un comercio de indumentaria en pleno centro de Mercedes"
-  },
-  {
-    "event_type": "Cultural or public events",
-    "location": "Mercedes, calle 34 esquina 27",
-    "date": "2023-04-26",
-    "summary": "A recycling and mixed technique seminar will be held at El Limonero on April 26 from 14 to 18 hours, led by professor Pablín Rodríguez.",
-    "source_url": "https://noticiasmercedinas.com/site/2025/04/21/invitan-a-un-seminario-este-sabado-en-el-limonero/",
-    "source_title": "Invitan a un seminario, este sábado en El Limonero"
-  },
-  {
-    "event_type": "Cultural or public events",
-    "location": "Carmen de Areco",
-    "date": "20XX-03-15",
-    "summary": "Doctora Estefanía Spena sworn in as new assistant prosecutor of Carmen de Areco on March 15, filling a vacant position after the resignation of Juan Pablo Bonett. The move aims to strengthen the Public Prosecution Office in Carmen de Areco and improve service to citizens.",
-    "source_url": "https://noticiasmercedinas.com/site/2025/04/17/estefania-spena-asumio-como-ayudante-fiscal-en-carmen-de-areco/",
-    "source_title": "Estefanía Spena asumió como ayudante fiscal en Carmen de Areco"
-  },
-  {
-    "event_type": "Crime incidents",
-    "location": "Mercedes, Argentina",
-    "date": null,
-    "summary": "A 59-year-old man was detained in Mercedes for a series of robberies using an inhibitor device to open vehicles and steal items. The suspect is from Chile and resides in the Autonomous City of Buenos Aires.",
-    "source_url": "https://noticiasmercedinas.com/site/2025/04/20/detienen-a-un-hombre-con-inhibidor-de-autos-que-era-buscado-por-robos-en-la-region/",
-    "source_title": "Detienen a un hombre con inhibidor de autos que era buscado por robos en la región"
-  },
-  {
-    "event_type": "Crime incidents",
-    "location": "Mercedes",
-    "date": "2023-04-16",
-    "summary": "A 39-year-old man was detained for a case of aggravated sexual abuse, and another man from General Rodríguez was detained with an active kidnapping warrant during a routine patrol in Mercedes.",
-    "source_url": "https://noticiasmercedinas.com/site/2025/04/17/dos-detenciones-investigado-por-abuso-sexual-y-capturado-por-circular-en-vehiculo-con-pedido-de-secuestro/",
-    "source_title": "Dos detenciones: investigado por abuso sexual y capturado por circular en vehículo con pedido de secuestro"
-  },
-  {
-    "event_type": "Infrastructure disruptions",
-    "location": "Trenque Lauquen (near Suipacha and Chivilcoy)",
-    "date": "2021-04-18",
-    "summary": "A family from Trenque Lauquen survived an accident on National Route 5 near the kilometer 138.3, Suipacha jurisdiction, after performing an evasive maneuver to avoid a truck invading their lane while overtaking a motorcycle.",
+    "event_type": "Infrastructure disruptions that can affect pedestrians or vehicles",
+    "city": "Trenque Lauquen",
+    "location": "Luzano - kilómetro 138,300 en jurisdicción del partido de Suipacha, baixo arroyo \"Las Saladas\"",
+    "date": "2025-04-20",
+    "time": "11:40",
+    "summary": "Una familia viajera sufrió un accidente gravado al attemptedur en la zona de préstamo con agua cerca do bridge de «Las Saladas» no longe do Suipacha.",
     "source_url": "https://noticiasmercedinas.com/site/2025/04/20/despiste-en-ruta-5-una-familia-cayo-con-su-auto-a-la-banquina-pero-resulto-ilesa/",
     "source_title": "Despiste en ruta 5: una familia cayó con su auto a la banquina pero resultó ilesa"
   },
   {
-    "event_type": "Cultural or public events",
-    "location": "Suipacha",
-    "date": "2025-04-19",
-    "summary": "The ninth game day of the Mercedina Football League was not completed in full due to suspensions and other factors. The categories 2017, 2015, 2014, 2013, 2012, 2011, 2010 and some matches from the current year were played.",
-    "source_url": "https://noticiasmercedinas.com/site/2025/04/20/infanto-juvenil-se-jugo-parcialmente-la-novena-fecha/",
-    "source_title": "Infanto Juvenil: se jugó parcialmente la novena fecha"
-  },
-  {
-    "event_type": "Cultural or public events",
-    "location": "Carteros (calle 24)",
+    "event_type": "No event",
+    "city": null,
+    "location": null,
     "date": null,
-    "summary": "Football Feminino match in Carteros was not completed due to absenteeism of Deportivo Gowland. Suspension for San Andrés de Giles games after Thursday's rain.",
-    "source_url": "https://noticiasmercedinas.com/site/2025/04/20/la-inferiores-del-femenino-volvieron-a-jugar-el-sabado/",
-    "source_title": "La Inferiores del Femenino volvieron a jugar el sábado"
+    "time": null,
+    "summary": "No real-world event found.",
+    "source_url": "https://noticiasmercedinas.com/site/2025/04/08/la-provincia-presento-el-programa-medicamentos-bonaerenses/",
+    "source_title": "La Provincia presentó el programa Medicamentos Bonaerenses"
   },
   {
-    "event_type": "Cultural or public events",
-    "location": "Chacabuco",
-    "date": "2023-04-26",
-    "summary": "Handball league matches between Escuela Municipal de Handball and Club Deportivo y Social Nueve de julio happening in Chacabuco on April 26.",
-    "source_url": "https://noticiasmercedinas.com/site/2025/04/20/handball-mercedes-fue-visitante-en-chacabuco/",
-    "source_title": "Handball: Mercedes fue visitante en Chacabuco"
-  },
-  {
-    "event_type": "Infrastructure disruptions",
-    "location": "Marcos Paz (inferred from context of the text)",
-    "date": null,
-    "summary": "The football match between San Martín and Holanda was suspended in Marcos Paz due to incidents in the dressing room.",
-    "source_url": "https://noticiasmercedinas.com/site/2025/04/20/el-barrio-estira-su-liderato/",
-    "source_title": "El “Barrio” estira su liderato"
+    "event_type": "Conflict and protests",
+    "city": null,
+    "location": null,
+    "date": "2025-03-24",
+    "time": null,
+    "summary": "The text describes historical violent actions that occurred on March 24th, which are significant in the country's political context. It does not mention an ongoing or upcoming event.",
+    "source_url": "https://noticiasmercedinas.com/site/2025/03/24/24-de-marzo-memoria-y-reflexion/",
+    "source_title": "24 de marzo: Memoria y Reflexión"
   },
   {
     "event_type": "No event",
     "location": null,
     "date": null,
+    "time": null,
     "summary": "No real-world event found.",
-    "source_url": "https://noticiasmercedinas.com/site/2025/04/20/empato-el-puntero-y-triunfo-trocha/",
-    "source_title": "Empató el puntero y triunfó Trocha"
-  },
-  {
-    "event_type": "No event",
-    "location": null,
-    "date": null,
-    "summary": "No real-world event found.",
-    "source_url": "https://noticiasmercedinas.com/site/2025/04/21/pabellon-y-ceramica-a-pura-goleada/",
-    "source_title": "Pabellón y Cerámica a pura goleada"
-  },
-  {
-    "event_type": "Cultural or public events",
-    "location": "Reserva",
-    "date": "2023-03-23",
-    "summary": "Tournaments in Reserva for Primera and Segunda categories held on 2023-03-23.",
-    "source_url": "https://noticiasmercedinas.com/site/2025/04/21/reserva-siguen-los-mismos-en-la-cima/",
-    "source_title": "Reserva: siguen los mismos en la cima"
-  },
-  {
-    "event_type": "Cultural or public events",
-    "location": "Chivilcoy",
-    "date": null,
-    "summary": "U15 Pre-Federal basketball game held in Chivilcoy between Argentino and Quilmes",
-    "source_url": "https://noticiasmercedinas.com/site/2025/04/21/pre-federal-quilmes-ante-argentino/",
-    "source_title": "Pre Federal, Quilmes ante Argentino"
-  },
-  {
-    "event_type": "No event",
-    "location": null,
-    "date": null,
-    "summary": "No real-world event found.",
-    "source_url": "https://noticiasmercedinas.com/site/2025/04/21/basualdo-entre-los-de-punta-del-desafio-del-lejano-oeste/",
-    "source_title": "Basualdo entre los de punta del Desafío del Lejano Oeste"
-  },
-  {
-    "event_type": "Cultural or public events",
-    "location": "Calle 28 entre 45 y 47",
-    "date": null,
-    "summary": "An event for elderly adults was held at the Club Estudiantes grounds organized by Cumelén.",
-    "source_url": "https://noticiasmercedinas.com/site/2025/04/21/cumelen-organizo-una-jornada-recreativa-con-adultos-mayores-en-el-club-estudiantes/",
-    "source_title": "Cumelén organizó una jornada recreativa con adultos mayores en el Club Estudiantes"
-  },
-  {
-    "event_type": "Infrastructure disruptions",
-    "location": "Mercedes (City)",
-    "date": null,
-    "summary": "The Public Services team of the Municipalidad de Mercedes is working on the San Francisco neighborhood, specifically street 104 from 1 to 7, for leveling and paving. This intervention is part of the city's recovery and maintenance plan for streets.",
-    "source_url": "https://noticiasmercedinas.com/site/2025/04/21/continuan-los-trabajos-de-nivelacion-y-empedrado-en-el-barrio-san-francisco/",
-    "source_title": "Continúan los trabajos de nivelación y empedrado en el barrio San Francisco"
-  },
-  {
-    "event_type": "No event",
-    "location": null,
-    "date": null,
-    "summary": "No real-world event found.",
-    "source_url": "https://noticiasmercedinas.com/site/2025/04/21/amistosos-de-estudiantes-en-femenino-y-masculino/",
-    "source_title": "Amistosos de Estudiantes en femenino y masculino"
-  },
-  {
-    "event_type": "Cultural or public events",
-    "location": "Provincia de Buenos Aires (Argentina)",
-    "date": null,
-    "summary": "The Patronato de Liberados of the Province of Buenos Aires delivered tools for employment to a person recently released from prison as part of the Integrar program.",
-    "source_url": "https://noticiasmercedinas.com/site/2025/04/22/patronato-de-liberados-entrego-herramientas-a-una-persona-egresada-en-el-marco-del-programa-integrar/",
-    "source_title": "Patronato de Liberados entregó herramientas a una persona egresada en el marco del programa Integrar"
-  },
-  {
-    "event_type": "Cultural or public events",
-    "location": "Chivilcoy",
-    "date": null,
-    "summary": "A basketball match was played in Chivilcoy between Quilmes and Jacobo Urso de Saladillo.",
-    "source_url": "https://noticiasmercedinas.com/site/2025/04/22/achb-en-el-rolo-cardinal-se-cerro-la-cuarta-fecha/",
-    "source_title": "ACHB: en el «Rolo» Cardinal se cerró la cuarta fecha"
-  },
-  {
-    "event_type": "Cultural or public events",
-    "location": "Mercedes (Argentina)",
-    "date": "2023-04-25",
-    "summary": "Museo de Arte Municipal de Mercedes (MAMM) inaugurates the exhibition 'Patrimonio, Primeros Años' on April 25, 2023.",
-    "source_url": "https://noticiasmercedinas.com/site/2025/04/22/el-mamm-inaugura-la-muestra-patrimonio-primeros-anos/",
-    "source_title": "El MAMM inaugura la muestra “Patrimonio, Primeros Años”"
-  },
-  {
-    "event_type": "No event",
-    "location": null,
-    "date": null,
-    "summary": "No real-world event found.",
-    "source_url": "https://noticiasmercedinas.com/site/2025/04/22/este-fin-de-semana-mercedes-sera-sede-de-la-fiesta-regional-de-teatro-independiente/",
-    "source_title": "Este fin de semana Mercedes será sede de la Fiesta Regional de Teatro Independiente"
-  },
-  {
-    "event_type": "No event",
-    "location": null,
-    "date": null,
-    "summary": "No real-world event found.",
-    "source_url": "https://noticiasmercedinas.com/site/2025/04/22/yoga-y-danza-se-fusionan-en-la-tercera-edicion-de-padma-en-el-cruce-del-arte/",
-    "source_title": "Yoga y danza se fusionan en la tercera edición de «Padma» en El Cruce del Arte"
-  },
-  {
-    "event_type": "No event",
-    "location": null,
-    "date": null,
-    "summary": "No real-world event found.",
-    "source_url": "https://noticiasmercedinas.com/site/2025/04/22/neurociencia-como-se-estudia-el-comportamiento-animal-en-los-laboratorios/",
-    "source_title": "Neurociencia: Cómo se estudia el comportamiento animal en los laboratorios"
-  },
-  {
-    "event_type": "Cultural or public events",
-    "location": "Mercedes",
-    "date": "2023-05-03",
-    "summary": "The cultural event 'La Casa Suena' featuring musicians Juan Sisterna and Leopoldo Caracoche will take place on May 3, 2023, at 9 PM in Mercedes.",
     "source_url": "https://noticiasmercedinas.com/site/2025/04/22/el-ciclo-la-casa-suena-vuelve-con-un-nuevo-encuentro-musical/",
     "source_title": "El ciclo “La Casa Suena” vuelve con un nuevo encuentro musical"
   },
   {
-    "event_type": "Cultural or public events",
-    "location": "Mercedes, Argentina (Salón de Eventos Martín Rodríguez located at the intersection of calles 9 and 6)",
-    "date": "2023-05-10",
-    "summary": "A family bingo event is being held at Salón de Eventos Martín Rodríguez in Mercedes, Argentina on May 10, 2023.",
-    "source_url": "https://noticiasmercedinas.com/site/2025/04/22/el-jardin-905-organiza-un-bingo-familiar-a-beneficio-con-musica-en-vivo-y-premios-sorpresa/",
-    "source_title": "El Jardín 905 organiza un bingo familiar a beneficio con música en vivo y premios sorpresa"
+    "event_type": "No event",
+    "location": null,
+    "date": null,
+    "time": null,
+    "summary": "No real-world event found.",
+    "source_url": "https://noticiasmercedinas.com/site/2025/04/18/arturo-puga-el-arte-y-la-musica-le-ponen-brillo-a-la-vida/",
+    "source_title": "Arturo Puga: “El arte y la música le ponen brillo a la vida”"
+  },
+  {
+    "event_type": "No event",
+    "location": null,
+    "date": null,
+    "time": null,
+    "summary": "No real-world event found.",
+    "source_url": "https://noticiasmercedinas.com/site/2025/04/20/carlos-mosso-se-suma-al-espacio-de-maria-eugenia-talerico-y-anticipa-presentacion-local/",
+    "source_title": "Carlos Mosso se suma al espacio de María Eugenia Talerico y anticipa presentación local"
+  },
+  {
+    "event_type": "No event",
+    "location": null,
+    "date": null,
+    "time": null,
+    "summary": "No real-world event found.",
+    "source_url": "https://noticiasmercedinas.com/site/2025/04/20/jose-eloy-bertana-qepd/",
+    "source_title": "JOSÉ ELOY BERTANA (QEPD)"
+  },
+  {
+    "event_type": "No event",
+    "location": null,
+    "date": null,
+    "time": null,
+    "summary": "No real-world event found.",
+    "source_url": "https://noticiasmercedinas.com/site/2025/04/18/integrantes-de-cuna-reclaman-al-legislativo-y-ejecutivo-el-cumplimiento-de-la-ordenanza-de-creacion/",
+    "source_title": "Integrantes de CUNA reclaman al Legislativo y Ejecutivo el cumplimiento de la ordenanza de creación"
+  },
+  {
+    "event_type": "No event",
+    "city": null,
+    "location": null,
+    "date": null,
+    "time": null,
+    "summary": "No real-world event found.",
+    "source_url": "https://noticiasmercedinas.com/site/2025/04/17/bernardo-zubeldia-abre-su-local-y-reafirma-su-compromiso-comunitario-con-una-propuesta-concreta/",
+    "source_title": "Bernardo Zubeldía abre su local y reafirma su compromiso comunitario con una propuesta concreta"
   }
 ]
