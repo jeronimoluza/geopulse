@@ -1,6 +1,7 @@
 import requests
 import json
-from typing import Dict, Any
+from typing import Dict, Any, Optional, Tuple
+from .pre_filter import PreFilter
 
 
 class EventExtractor:
@@ -10,11 +11,27 @@ class EventExtractor:
     """
 
     def __init__(
-        self, model_endpoint: str = "http://localhost:11434/api/generate"
+        self, model_endpoint: str = "http://localhost:11434/api/generate",
+        use_pre_filter: bool = True
     ):
         self.model_endpoint = model_endpoint
+        self.use_pre_filter = use_pre_filter
+        if use_pre_filter:
+            self.pre_filter = PreFilter(model_endpoint)
 
-    def extract_event(self, text: str) -> Dict[str, Any]:
+    def extract_event(self, text: str, title: str = "", subtitle: str = "") -> Dict[str, Any]:
+        if self.use_pre_filter and title:
+            should_process, reason = self.pre_filter.should_process(title, subtitle)
+            if not should_process:
+                return {
+                    "event_type": "No event",
+                    "city": None,
+                    "location": None,
+                    "date": None,
+                    "time": None,
+                    "summary": f"Filtered out: {reason}"
+                }
+        
         prompt = self._build_prompt(text)
         try:
             response = self._query_model(prompt)
