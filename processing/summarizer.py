@@ -4,6 +4,7 @@ import requests
 from datetime import datetime
 from pathlib import Path
 from .utils import chunk_text
+from tqdm import tqdm
 
 class NewsSummarizer:
     def __init__(self, model_endpoint: str = "http://localhost:11434/api/generate"):
@@ -13,7 +14,9 @@ class NewsSummarizer:
         prompt = f"Summarize the following news article in a concise way:\n\n{text}\n\nSummary:"
         
         payload = {
+            # "model": "qwen2:0.5b",
             "model": "mistral",
+            # "model": "tinyllama",
             "prompt": prompt,
             "stream": False
         }
@@ -49,9 +52,11 @@ class NewsSummarizer:
         processed_articles = []
         all_summaries = []
 
-        for article in articles:
+        for article in tqdm(articles):
+            if article.get("full_text") == '':
+                continue
             # Chunk the full text if it exists
-            chunks = chunk_text(article.get('full_text', '')) if article.get('full_text') else [article.get('subtitle', '')]
+            chunks = chunk_text(article.get('full_text', ''))
             
             # Generate article summary
             article_summary = self.summarize_chunks(chunks)

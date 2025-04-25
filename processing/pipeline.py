@@ -73,23 +73,31 @@ class NewsPipeline:
         """Process all spider outputs and generate summaries for each country."""
         country_articles = {}
         today = datetime.now().strftime('%Y-%m-%d')
-        spider_outputs = Path("output").glob(f"*_{today}*.json")
         
-        # First collect all articles by country
-        for output_file in spider_outputs:
-            with open(output_file) as f:
-                spider_articles = json.load(f)
-                if spider_articles:
-                    # Get country code from spider name
-                    spider_name = output_file.stem.split('_')[0]
-                    country_code = self._get_country_code(spider_name)
-                    if country_code:
-                        if country_code not in country_articles:
-                            country_articles[country_code] = []
-                        country_articles[country_code].extend(spider_articles)
+        # The new structure has country codes as directory names
+        scraped_dir = Path("data/scraped")
+        
+        # Process each country directory
+        for country_dir in scraped_dir.glob("*"):
+            if country_dir.is_dir():
+                country_code = country_dir.name.upper()  # Directory name is the country code
+                country_articles[country_code] = []
+                
+                # Process all JSON files in this country's directory
+                for output_file in country_dir.glob(f"*_{today}*.json"):
+                    try:
+                        with open(output_file) as f:
+                            spider_articles = json.load(f)
+                            if spider_articles:
+                                country_articles[country_code].extend(spider_articles)
+                    except Exception as e:
+                        logger.error(f"Error processing {output_file}: {e}")
         
         # Then process summaries for each country
+        
         for country_code, articles in country_articles.items():
+            import random
+            articles = random.sample(articles, 30)
             if not articles:
                 logger.warning(f"No articles found for country {country_code}")
                 continue
