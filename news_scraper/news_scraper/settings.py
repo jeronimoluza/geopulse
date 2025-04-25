@@ -9,8 +9,8 @@
 
 BOT_NAME = "news_scraper"
 
-SPIDER_MODULES = ["news_scraper.spiders"]
-NEWSPIDER_MODULE = "news_scraper.spiders"
+SPIDER_MODULES = ["news_scraper.news_scraper.spiders"]
+NEWSPIDER_MODULE = "news_scraper.news_scraper.spiders"
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
@@ -90,3 +90,13 @@ ROBOTSTXT_OBEY = True
 # Set settings whose default value is deprecated to a future-proof value
 TWISTED_REACTOR = "twisted.internet.asyncioreactor.AsyncioSelectorReactor"
 FEED_EXPORT_ENCODING = "utf-8"
+
+# Configure feed settings
+FEEDS = {
+    'output/%(name)s_%(time)s.json': {
+        'format': 'json',
+        'encoding': 'utf-8',
+        'store_empty': False,
+        'overwrite': True,
+    }
+}

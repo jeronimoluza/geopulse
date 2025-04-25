@@ -1,5 +1,5 @@
 import scrapy
-from news_scraper.items import NewsScraperItem
+from ..items import NewsScraperItem
 from datetime import datetime
 import unicodedata
 import re

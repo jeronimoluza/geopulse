@@ -1,0 +1,19 @@
+{
+  "ARG": {
+    "name": "Argentina",
+    "newspapers": [
+      {
+        "name": "clarin_spider",
+        "url": "https://www.clarin.com"
+      },
+      {
+        "name": "lanacion_spider",
+        "url": "https://www.lanacion.com.ar"
+      },
+      {
+        "name": "lpo_spider",
+        "url": "https://www.lapoliticaonline.com"
+      }
+    ]
+  }
+}
