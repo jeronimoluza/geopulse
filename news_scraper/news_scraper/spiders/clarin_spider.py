@@ -10,7 +10,7 @@ class ClarinSpider(BaseNewsSpider):
 
     def get_article_links(self, response):
         all_links = response.css('a::attr(href)').getall()
-        article_pattern = re.compile(r'^https://www\.clarin\.com/.*')
+        article_pattern = re.compile(r'^https://www\.clarin\.com/.*.html$')
         article_links = []
         for link in all_links:
             abs_url = response.urljoin(link)

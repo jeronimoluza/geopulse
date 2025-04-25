@@ -4,7 +4,7 @@ from datetime import datetime
 import re
 
 class LaNacionSpider(BaseNewsSpider):
-    name = "lanacion"
+    name = "lanacion_spider"
     allowed_domains = ["lanacion.com.ar"]
     start_urls = ["https://www.lanacion.com.ar"]
 

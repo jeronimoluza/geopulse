@@ -36,13 +36,13 @@ def process_file(input_path, output_path):
 
 def run_scraper():
     """Run the news scraping and summarization pipeline"""
-    config_path = os.path.join("news_scraper", "config", "newspapers.json")
+    config_path = os.path.join("data", "config", "newspapers.json")
     pipeline = NewsPipeline(config_path, OUTPUT_DIR)
     pipeline.run_spiders()
 
 def run_summarizer():
     """Run the summarization on scraped articles"""
-    config_path = os.path.join("news_scraper", "config", "newspapers.json")
+    config_path = os.path.join("data", "config", "newspapers.json")
     pipeline = NewsPipeline(config_path, OUTPUT_DIR)
     pipeline.process_country_summaries()
 

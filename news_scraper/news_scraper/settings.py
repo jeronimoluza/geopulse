@@ -56,9 +56,10 @@ ROBOTSTXT_OBEY = True
 
 # Enable or disable extensions
 # See https://docs.scrapy.org/en/latest/topics/extensions.html
-#EXTENSIONS = {
-#    "scrapy.extensions.telnet.TelnetConsole": None,
-#}
+EXTENSIONS = {
+    "scrapy.extensions.telnet.TelnetConsole": None,
+    "news_scraper.extensions.CustomFeedExporter": 500,  # Replace default feed exporter
+}
 
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
@@ -93,7 +94,7 @@ FEED_EXPORT_ENCODING = "utf-8"
 
 # Configure feed settings
 FEEDS = {
-    'output/%(name)s_%(time)s.json': {
+    'data/scraped/%(country_code)s/%(name)s_%(time)s.json': {
         'format': 'json',
         'encoding': 'utf-8',
         'store_empty': False,

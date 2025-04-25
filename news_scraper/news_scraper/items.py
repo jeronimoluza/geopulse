@@ -13,3 +13,4 @@ class NewsScraperItem(scrapy.Item):
     full_text = scrapy.Field()
     url = scrapy.Field()
     source = scrapy.Field()
+    country_code = scrapy.Field()
