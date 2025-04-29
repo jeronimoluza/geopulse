@@ -70,7 +70,7 @@ class NewsPipeline:
         process.start()
 
     def process_country_summaries(self):
-        """Process all spider outputs and generate summaries for each country."""
+        """Process all spider outputs and generate topic-based summaries for each country."""
         country_articles = {}
         today = datetime.now().strftime('%Y-%m-%d')
         
@@ -84,7 +84,7 @@ class NewsPipeline:
                 country_articles[country_code] = []
                 
                 # Process all JSON files in this country's directory
-                for output_file in country_dir.glob(f"*_{today}*.json"):
+                for output_file in country_dir.glob("*.json"):
                     try:
                         with open(output_file) as f:
                             spider_articles = json.load(f)
@@ -93,20 +93,37 @@ class NewsPipeline:
                     except Exception as e:
                         logger.error(f"Error processing {output_file}: {e}")
         
-        # Then process summaries for each country
+        # Process summaries for each country
+        country_summaries = {}
         
         for country_code, articles in country_articles.items():
-            import random
-            articles = random.sample(articles, 30)
             if not articles:
                 logger.warning(f"No articles found for country {country_code}")
                 continue
                 
-            logger.info(f"Generating summaries for {country_code} ({len(articles)} articles)")
-            country_summary = self.summarizer.process_country_articles(country_code, articles)
+            # Extract metadata (article_id, title, subtitle) for topic extraction
+            articles_metadata = [{
+                'article_id': article.get('article_id', ''),
+                'title': article.get('title', ''),
+                'subtitle': article.get('subtitle', '')
+            } for article in articles]
             
-            # Save the processed output
+            logger.info(f"Generating topic summaries for {country_code} ({len(articles)} articles)")
+            country_summary = self.summarizer.process_country_articles(
+                country_code, 
+                articles_metadata,
+                full_articles=articles
+            )
+            
+            # Save the individual country summary
             self.summarizer.save_country_summary(
                 country_summary,
-                self.output_dir / "processed"
+                self.output_dir / "topics"
             )
+            
+            # Add to the combined summaries
+            country_summaries[country_code] = country_summary.get('summary', '')
+        
+        # Save the combined country summaries
+        if country_summaries:
+            self.summarizer.save_country_summaries_json(country_summaries)

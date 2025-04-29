@@ -175,3 +175,4 @@ cython_debug/
 
 # Output files
 data/scraped/*/*.json
+data/summary/*.json
