@@ -5,6 +5,7 @@ import unicodedata
 import re
 import json
 import os
+import hashlib
 from pathlib import Path
 
 class BaseNewsSpider(scrapy.Spider):
@@ -73,13 +74,28 @@ class BaseNewsSpider(scrapy.Spider):
         text = re.sub(r'[\x00-\x08\x0B\x0C\x0E-\x1F\x7F-\x9F]', '', text)
         return text.strip()
 
+    def generate_article_id(self, full_text, url):
+        """Generate a unique ID for the article based on its content and URL."""
+        # Combine full text and URL to ensure uniqueness even if content is identical
+        content_to_hash = f"{full_text}{url}".encode('utf-8')
+        # Use SHA-256 hash and take first 16 characters for a reasonably unique ID
+        return hashlib.sha256(content_to_hash).hexdigest()[:16]
+        
     def make_item(self, title, subtitle, date, full_text, url, source=None):
+        # Clean the text first
+        cleaned_full_text = self.clean_text(full_text)
+        cleaned_url = self.clean_text(url)
+        
+        # Generate unique ID
+        article_id = self.generate_article_id(cleaned_full_text, cleaned_url)
+        
         return NewsScraperItem(
+            article_id=article_id,
             title=self.clean_text(title),
             subtitle=self.clean_text(subtitle),
             date=date,
-            full_text=self.clean_text(full_text),
-            url=self.clean_text(url),
+            full_text=cleaned_full_text,
+            url=cleaned_url,
             source=self.clean_text(source or self.name),
             country_code=self.country_code
         )
