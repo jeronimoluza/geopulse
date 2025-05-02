@@ -69,10 +69,17 @@ class NewsPipeline:
         # Wait for all spiders to finish
         process.start()
 
-    def process_country_summaries(self):
-        """Process all spider outputs and generate topic-based summaries for each country."""
+    def process_country_summaries(self, predefined_topics=None):
+        """Process all spider outputs and generate topic-based summaries for each country.
+        
+        Args:
+            predefined_topics: Optional list of topics to categorize articles into.
+                               Defaults to ["economy", "politics", "sports", "climate", "miscellaneous"]
+        """
+        if predefined_topics is None:
+            predefined_topics = ["economy and prices", "politics", "sports", "climate", "international", "miscellaneous"]
+            
         country_articles = {}
-        today = datetime.now().strftime('%Y-%m-%d')
         
         # The new structure has country codes as directory names
         scraped_dir = Path("data/scraped")
@@ -112,7 +119,8 @@ class NewsPipeline:
             country_summary = self.summarizer.process_country_articles(
                 country_code, 
                 articles_metadata,
-                full_articles=articles
+                full_articles=articles,
+                predefined_topics=predefined_topics
             )
             
             # Save the individual country summary
@@ -122,8 +130,9 @@ class NewsPipeline:
             )
             
             # Add to the combined summaries
-            country_summaries[country_code] = country_summary.get('summary', '')
+            country_summaries[country_code] = country_summary
         
         # Save the combined country summaries
         if country_summaries:
+            logger.info(f"Saving combined country summaries to data/summary/country_summaries.json")
             self.summarizer.save_country_summaries_json(country_summaries)
