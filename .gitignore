@@ -174,4 +174,5 @@ cython_debug/
 .pypirc
 
 # Output files
-output/*.json
+data/scraped/*/*.json
+data/summary/*.json

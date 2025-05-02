@@ -4,7 +4,7 @@ from datetime import datetime
 import re
 
 class LPOSpider(BaseNewsSpider):
-    name = "lpo"
+    name = "lpo_spider"
     allowed_domains = ["lapoliticaonline.com"]
     start_urls = ["https://lapoliticaonline.com/"]
 

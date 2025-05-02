@@ -9,8 +9,8 @@
 
 BOT_NAME = "news_scraper"
 
-SPIDER_MODULES = ["news_scraper.spiders"]
-NEWSPIDER_MODULE = "news_scraper.spiders"
+SPIDER_MODULES = ["news_scraper.news_scraper.spiders"]
+NEWSPIDER_MODULE = "news_scraper.news_scraper.spiders"
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
@@ -56,9 +56,10 @@ ROBOTSTXT_OBEY = True
 
 # Enable or disable extensions
 # See https://docs.scrapy.org/en/latest/topics/extensions.html
-#EXTENSIONS = {
-#    "scrapy.extensions.telnet.TelnetConsole": None,
-#}
+EXTENSIONS = {
+    "scrapy.extensions.telnet.TelnetConsole": None,
+    "news_scraper.extensions.CustomFeedExporter": 500,  # Replace default feed exporter
+}
 
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
@@ -90,3 +91,13 @@ ROBOTSTXT_OBEY = True
 # Set settings whose default value is deprecated to a future-proof value
 TWISTED_REACTOR = "twisted.internet.asyncioreactor.AsyncioSelectorReactor"
 FEED_EXPORT_ENCODING = "utf-8"
+
+# Configure feed settings
+FEEDS = {
+    'data/scraped/%(country_code)s/%(name)s_%(time)s.json': {
+        'format': 'json',
+        'encoding': 'utf-8',
+        'store_empty': False,
+        'overwrite': True,
+    }
+}
